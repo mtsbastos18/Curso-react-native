@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native'
 
 /* components */ 
 import Contador from './components/Contador'
-// import Botao from './components/Botao'
+import Botao from './components/Botao'
 // import Titulo from './components/Titulo'
 // import Aleatorio from './components/Aleatorio'
 // import MinMax from './components/MinMax'
@@ -12,8 +12,9 @@ import Contador from './components/Contador'
 
 export default () => (  
     <View style={style.App}> 
-        <Contador inicial={1} />
-        {/*<Botao title="Aperta"></Botao>
+        <Botao title="Aperte aqui"></Botao>
+        {/*<Contador inicial={1} />
+        <Botao title="Aperta"></Botao>
         <Titulo principal="Cadastro Produto" secundario="Tela de Cadastro"/>
         <Aleatorio min={10} max={18} />
         <MinMax min={3} max={30} />
